@@ -1,4 +1,7 @@
 * {margin:0; padding:0;}
 
-.container {width:1200px;}
+.container {width:1200px; margin:0 auto; overflow:hidden;}
 
+#gnb {height:160px;}
+#gnb #info_area {height:60px; border-bottom:#eee;}
+#gnb #header {height:100px; border-bottom:#eee;}
