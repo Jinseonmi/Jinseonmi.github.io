@@ -1,7 +1,47 @@
-* {margin:0; padding:0;}
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, em, img, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, article, aside, canvas, footer, header, hgroup, menu, nav, section {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align:baseline;
+}
 
-.container {width:1200px; margin:0 auto; overflow:hidden;}
+body {font-family:"Questrial",Arial,Helvetica,sans-serif; font-size:12px; background:#f1f1f1}
+ul, dl {list-style:none;}
+em {font-style:normal; font-weight:600;}
+a {text-decoration:none; color:#555;}
+.fa {font-size:18px !important;}
 
-#gnb {height:160px;}
-#gnb #info_area {height:60px; border-bottom:#eee;}
-#gnb #header {height:100px; border-bottom:#eee;}
+/* common */
+.container {}
+.wrapper {width:1200px; margin:0 auto; overflow:hidden; background:#fff;}
+
+#gnb {height:160px; font-size:11px;background:#fff;}
+#gnb #gnb_info {height:60px; line-height:60px; border-bottom:1px solid #eee;}
+#gnb #gnb_info li {display:inline-block; height:60px; padding:0 30px; border-right:1px solid #eee;}
+#gnb #gnb_info .info_left {float:left; border-left:1px solid #eee;}
+#gnb #gnb_info .info_right {float:right; border-left:1px solid #eee;}
+
+#gnb #gnb_header {height:100px; border-bottom:1px solid #eee;}
+#gnb #gnb_header .logo {float:left; padding:20px 0;}
+#gnb #gnb_header .gnb_menu {float:right; display:inline-block; padding-right:30px;}
+#gnb #gnb_header .gnb_menu li{float:left; padding:40px 20px; font-weight:600;}
+#gnb #gnb_header .gnb_menu .search {clear:both; float:right; display:inline-block; font-size:18px; background:#ccc;}
+
+#main_slider {clear:both; height:565px; overflow:hidden;}
+#main_slider .slider img {width:100%;}
+
+#banner {}
+#banner > div {float:left; width:50%; overflow:hidden;}
+#banner > div img {width:100%;}
+
+.product_list {clear:both; height:462px; overflow:hidden; border-bottom:1px solid #eee;}
+.product_list li {display:inline-block; width:25%; height:462px; border-right:1px solid #eee; box-sizing:border-box; text-align:center;}
+
+.section header {}
+
+
+
+
+
+
