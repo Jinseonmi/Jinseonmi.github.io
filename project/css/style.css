@@ -1,16 +1,18 @@
 html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, em, img, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, article, aside, canvas, footer, header, hgroup, menu, nav, section {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
+	margin:0;
+	padding:0;
+	border:0;
+	font-size:100%;
 	vertical-align:baseline;
 }
 
-body {font-family:"Questrial",Arial,Helvetica,sans-serif; font-size:12px; background:#f1f1f1}
+body {font-family:"Questrial", Arial, Helvetica,sans-serif; font-size:12px; background:#f1f1f1}
 ul, dl {list-style:none;}
+h1,h2,h3,h4,h5,h6 {text-transform:uppercase;}
 em {font-style:normal; font-weight:600;}
 a {text-decoration:none; color:#555;}
-.fa {font-size:18px !important;}
+i.fa {font-size:17px !important;}
+
 
 /* common */
 .container {}
@@ -36,11 +38,52 @@ a {text-decoration:none; color:#555;}
 #banner > div img {width:100%;}
 
 .product_list {clear:both; height:462px; overflow:hidden; border-bottom:1px solid #eee;}
-.product_list li {display:inline-block; width:25%; height:462px; border-right:1px solid #eee; box-sizing:border-box; text-align:center;}
+.product_list li {float:left; width:25%; height:462px; border-right:1px solid #eee; box-sizing:border-box; text-align:center;}
 
-.section header {}
+/* newsletter */
+.newsletter {font-size:0; height:550px; }
+.newsletter_bg, .newsletter_form {display:inline-block;}
+
+.newsletter_bg {width:34%;}
+.newsletter_form {width:50%; padding:8%; text-align:center; vertical-align:top;}
+.newsletter_form h4 {color:#888; font-size:18px; font-weight:400;}
+.newsletter_form h4 span {color:#B8CD06;}
+.newsletter_form h3 {font-size:30px;}
+.newsletter_form h3 span {color:#B8CD06; font-weight:800;}
+.newsletter_form p {padding:20px 0 40px; color:#888; font-size:14px;}
+
+.newsletter_form form {position:relative;}
+.newsletter_form input {width:100%; height:50px; padding-left:20px; border:1px solid #EEEEEE; border-radius:30px; box-sizing:border-box;}
+.newsletter_form button {position:absolute; right:0; height:50px; padding:0 30px; background:#B8CD06; border:1px solid #B8CD06; border-radius:30px; color:#fff; cursor:pointer;}
+.newsletter_form button:hover {background:#93C11C;}
+
+/* footer */
+#footer {background:#343434;}
+#footer .wrapper {padding:55px 0 ; background:#343434;}
+.footer_block {float:left; width:25%; color:#999;}
+.footer_block a {color:#999;}
+.footer_block a:hover {color:#B8CD06;}
+.footer_block h4 {color:#fff; margin-bottom:25px;}
+.footer_block i.fa {width:25px; color:#B8CD06;}
+.footer_block p {line-height:20px;}
+.footer_block li {line-height:30px;}
+
+.footer_block .logo {margin-bottom:20px;}
+.footer_block .contact_list {margin-top:15px;}
+
+.footer_block .link_list {width:49%; display:inline-block;}
+.footer_block .link_list a {text-transform:uppercase; font-size:11px;}
+
+.footer_block .post_list {width:100%;}
+.footer_block .post_list dt {float:left; width:30%; }
+.footer_block .post_list dd {float:left; width:66%; margin-bottom:20px; line-height:17px; text-transform:uppercase;}
+.footer_block .post_list dd a {color:#fff; font-size:11px;}
+.footer_block .post_list .date {display:block; font-size:9px;}
 
 
+.footer_block .tag_list li {display:inline-block; margin-right:5px; margin-bottom:10px;}
+.footer_block .tag_list a {padding:10px; background:#424242; border-radius:30px; text-transform:uppercase; font-size:11px; font-weight:600;}
+.footer_block .tag_list a:hover {background:#B8CD06; color:#fff;}
 
 
 
