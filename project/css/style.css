@@ -6,7 +6,7 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, em, img, b, i, dl, dt, dd, 
 	vertical-align:baseline;
 }
 
-body {font-family:"Questrial", Arial, Helvetica,sans-serif; font-size:12px; background:#f1f1f1}
+body {font-family:"Questrial", Arial, Helvetica, sans-serif; font-size:12px; background:#f1f1f1}
 ul, dl {list-style:none;}
 h1,h2,h3,h4,h5,h6 {text-transform:uppercase;}
 em {font-style:normal; font-weight:600;}
@@ -24,15 +24,20 @@ i.fa {font-size:17px !important;}
 #gnb #gnb_info .info_left {float:left; border-left:1px solid #eee;}
 #gnb #gnb_info .info_right {float:right; border-left:1px solid #eee;}
 
+/* header 메뉴 */ 
 #gnb #gnb_header {height:100px; border-bottom:1px solid #eee;}
 #gnb #gnb_header .logo {float:left; padding:20px 0;}
 #gnb #gnb_header .gnb_menu {float:right; display:inline-block; padding-right:30px;}
 #gnb #gnb_header .gnb_menu li{float:left; padding:40px 20px; font-weight:600;}
 #gnb #gnb_header .gnb_menu .search {clear:both; float:right; display:inline-block; font-size:18px; background:#ccc;}
 
+.gnb_submenu {display:none;}
+
+/* 메인 top 슬라이더 */
 #main_slider {clear:both; height:565px; overflow:hidden;}
 #main_slider .slider img {width:100%;}
 
+/* 메인 배너 */
 #banner {}
 #banner > div {float:left; width:50%; overflow:hidden;}
 #banner > div img {width:100%;}
@@ -44,6 +49,8 @@ i.fa {font-size:17px !important;}
 .item_label li {padding:6px 10px; margin-bottom;5px; font-size:10px; color:#fff; border-radius:30px; text-transform:uppercase;}
 .item_label li.sale_text {background:#D80505;}
 .item_label li.new_text, .item_label li.BP_text{background:#B8CD06;}
+
+
 
 /* section */
 .section {padding-top:100px;}
