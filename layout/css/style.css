@@ -1,5 +1,6 @@
 * {margin:0; padding:0;}
 li {list-style:none;}
+a {text-decoration:none; color:#444;}
 
 .container {}
 
@@ -16,7 +17,43 @@ body {background:#f1f1f1; color:#444;}
 .top .top_left .left_menu.contact {border-left:1px solid #ddd; }
 .top .top_left .left_menu span {font-size:12px; font-weight:bold; text-transform:uppercase;}
 
-
 .top .top_right {float:right;}
 .top .top_right li {float:left; font-size:12px; font-weight:bold; line-height:60px; padding:0 30px; border-left:1px solid #ddd;}
 .top .top_right li:last-child {border-right:1px solid #ddd;}
+
+
+/* nav */
+h1 { float:left; width:50px; padding:10px 0; margin:16px 0; text-align:center; border:3px solid #000; font-size:16px; letter-spacing:2px;}
+
+.menu {float:right; position:relative; height:100px;}
+.menu li {float:left; height:100px;}
+.menu li a {display:block; height:34px; line-height:34px; padding:0 15px; margin:33px 0; border-radius:30px; text-transform:uppercase; font-size:12px; font-weight:bold; transition:all .3s ease;}
+/*.menu li a:hover {background:#B8CD06; color:#fff;}*/
+.menu li:hover a {background:#B8CD06; color:#fff;}
+
+.search {float:right; width:15px; line-height:100px; margin-left:15px;}
+
+
+/* sub */
+.menu li .active a {background:#B8CD06; color:#fff;}
+
+.sub {
+    display:none;
+    position:absolute; 
+    top:100%; 
+    right:-30px; 
+    width:800px; 
+    height:300px; 
+    background:#fff; 
+    border-top:3px solid #B8CD06; 
+    border-bottom-left-radius:5px; 
+    border-bottom-right-radius:5px; 
+    box-shadow:0px 1px 5px rgba(0,0,0,0.07);
+} /* top:100%; -> relative 높이만큼 내려온다 */
+
+.menu li:hove a .sub {display:block;}
+/*.menu li a:hove + .sub {display:block;}*/
+
+
+
+
