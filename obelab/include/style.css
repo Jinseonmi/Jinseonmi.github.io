@@ -1,0 +1,274 @@
+/*@import url("fonts.css");*/
+
+html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, a, img, fl, dt, dd, il, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td { margin:0; padding:0; border:0; font-family:inherit; font-weight:inherit;}
+body { width:100%; font-family:"Helvetica", "Arial"; font-size:20px; color:#444; background:#fff; line-height:30px;}
+body {-webkit-text-size-adjust:none;}
+dl, ol, ul {list-style:none;}
+h1, h2, h3, h4, h5, h6{text-transform:uppercase;}
+h2, h3 {background:url('../images/ico_title.gif') no-repeat 0 2px; padding-left:19px; font-size:34px; text-align:left; color:#000; }
+h2 { font-weight:bold; }
+h3 { font-weight:bold;}
+a{color:#444; text-decoration:none;}
+
+.text_up{text-transform:uppercase;}
+.text_b{color:#0055a5;}
+/*-- list --*/
+.content_list dt { font-size:24px; color:#0055a5; text-transform:uppercase; font-weight:bold;margin-bottom:10px;}
+
+/*-- header menu --*/
+#header_area{
+	position: fixed;
+	top: 0;
+	width:100%;
+	height:62px;
+	background: #fff;
+	/*background:url('../images/bg_header_line.gif') repeat-x bottom;*/
+	border-bottom: 1px #C7C7C7 solid; 
+	z-index: 9999;
+}
+
+#header_area .header	{position:relative; width:1200px;  margin:0 auto;}
+
+#logo{
+	position:absolute;
+	left:0;
+	width:167px;
+	text-align:center;
+}
+
+#logo img{padding-top:15px;}
+
+#top_menu{
+	position:absolute;
+	right:0;
+	width:615px;
+	height:62px;
+	font-size:16px;
+}
+
+#top_menu li{
+	float:left;
+	font-weight:bold;
+	text-transform:uppercase;
+	background:url('../images/divider.gif') no-repeat 0 center;
+}
+#top_menu li:first-child{background:none;}
+#top_menu li a {padding:17px 30px 19px 30px; line-height:26px; display:inline-block;}
+#top_menu li.on a{background:#0055A5; color:#fff; }
+
+/*-- content --*/
+.content_area{position:relative; width:1200px; padding-top:124px; margin:0 auto;}
+
+/*-- banner --*/
+#banner{
+	width:100%;
+	 /* height:843px;780px */
+	background:#EFEFEF;
+	/*background:url('../images/bg_gray.gif') no-repeat;*/
+	overflow:hidden;
+}
+
+#banner .content_area{ padding-top:63px; }
+
+#banner_img img{
+	width:1200px;
+	height:777px;
+	overflow:hidden;
+}
+/*
+#banner_nav{width:100%;}
+#banner_nav img{width:53px; height:52px;}
+#banner_nav div{position:absolute; top:45%;}
+#banner_nav .nav_prev { left:0;}
+#banner_nav .nav_next { right:0;}
+*/
+/*-- NIRSIT-PF1 --*/
+#nirsit { height:700px; } /* 790px */
+#nirsit .content_area{ text-align:center;}
+#nirsit .content_area img{ margin-top:50px; width:53%; }
+/*#nirsit p { position:absolute; right:0; width:38%; font-weight:bold; text-align:left; padding-top:140px; font-size:34px;}*/
+
+/*-- Features --*/
+#features{
+	height:570px; /* 476px */
+	background:#009DDC;
+}
+
+#features h2{color:#fff; margin-bottom:60px;}
+#features .content_list dt{color:#fff;  font-size:19px; font-weight:bold;}
+
+#fea_menu div { width:33%;  text-align:center; display:inline-block; vertical-align:top;}
+#fea_menu .fea_menu1 { background:url('../images/img_fea01.gif') no-repeat center 0; }
+#fea_menu .fea_menu2 { background:url('../images/img_fea02.gif') no-repeat center 0; }
+#fea_menu .fea_menu3 { background:url('../images/img_fea03.gif') no-repeat center 0; }
+
+#fea_menu a{display:inline-block; width:100%; padding-top:185px; color:#fff;}
+
+/*-- High-Performance --*/
+#hiper{
+	height:744px; /* 650px */	 
+}
+
+#hiper .content_list { padding:0 50px 0 500px; background:url('../images/img_high01.gif') no-repeat 40px 40px; }
+#hiper .content_list dt { padding:30px 0 0px 0; }
+
+/*-- Easy-to-Use --*/
+#etu{
+	height:758px; /* 934px */
+	text-align:center;
+	background:#EFEFEF url('../images/img_etu01.gif') no-repeat center 0;
+}
+
+#etu .content_area{height:758px; padding-top:62px;}
+#etu p { font-weight:bold; font-size:34px;}
+#etu img{display:none;}
+
+/*--- Portable --*/
+#portable { 
+	height:980px; /* 1003px */
+	background:url('../images/bg_port01.gif') no-repeat center bottom;
+}
+#portable h3{padding-bottom:30px; }
+
+#low_pro { height:364px; padding:15px 90px 0 590px; background:url('../images/img_port01.gif') no-repeat 40px 0; }
+
+#mobile_app { position:relative; padding:30px 660px 0 30px; background:url('../images/img_port00.gif') no-repeat 405px 25px; }
+#mobile_app p { padding-bottom:10px; }
+#mobile_app img { position:absolute; top:-130px; right:45px;}
+#mobile_app_nav div {position:absolute; top:100px; }
+#mobile_app_nav .nav_prev { right:515px; cursor:pointer; }
+#mobile_app_nav .nav_next { right:-82px; cursor:pointer; }
+
+/*-- Technology --*/
+#technology { 
+	height:2000px; /* 1830px */
+	color:#fff; 
+	background:#009DDC;
+}
+#technology h2, #technology dt{ color:#fff; font-weight:bold;}
+#technology h2 { margin-bottom:70px; }
+#technology dt { margin-bottom:10px; font-size:24px; }
+
+#NIRS { height:301px; padding:40px 0 0 620px; background:url('../images/img_tech01.gif') no-repeat 30px 0; }
+#ESODH { margin-top:30px; height:352px; padding:30px 630px 0 15px; background:url('../images/img_tech02.gif') no-repeat 700px 0; }
+#Trajectory { margin-top:50px; height:340px; padding:0 80px 0 580px; background:url('../images/img_tech03.gif') no-repeat 75px 0; }
+
+#reference {position:relative; width:100%; height:100px; top:0; font-size:12px; }
+#reference p{position:absolute; right:45px; top:-80px; width:48%;  }
+
+#character{margin-top:80px;}
+#character ul { margin-top:50px; }
+#character li { width:33%; padding-top:180px; text-align:center; display:inline-block; vertical-align:top; font-size:16px; text-transform:uppercase; font-weight:bold;}
+#character li span{ display:block; margin:0 auto; width:200px; line-height:120%;}
+#character .chara1 { background:url('../images/img_chara01.gif') no-repeat center 0; }
+#character .chara2 { background:url('../images/img_chara02.gif') no-repeat center 0; }
+#character .chara3 { background:url('../images/img_chara03.gif') no-repeat center 0; }
+
+
+/*-- Support --*/
+#support { 
+	height:770px; /* 930px */
+	background:#EFEFEF;
+}
+
+
+#support h3 { margin-top:52px; margin-bottom:10px; background:url('../images/ico_stitle.gif') no-repeat 0 7px; padding-left:22px; font-size:30px;}
+.s_left{ float:left; width:45%; margin-right:5%;}
+.s_right{ float:left; width:50%;}
+
+.company { margin: 0 25px; color:#969696;}
+
+#support  form { position:relative; padding-left:15px; }
+#support  form p { position:absolute; bottom:10px; left:20px; font-size:18px; color:#969696;}
+
+.input_text input { width:90%; padding:14px 19px; font-size:16px; background:#fff; border:none; margin-bottom:13px; color:#AAAAAA;}
+.input_text label { display:none;}
+.input_text textarea{ width:90%;  padding:14px 19px;border:none;}
+
+.btn_send { text-align:right; margin:10px 20px 0 0;}
+.btn_send input {
+	font-weight:bold;
+	font-size:16px;
+	padding:12px 67px;
+	background:#0055A5;
+	color:#fff;
+	border:none;
+	text-transform:uppercase;
+	cursor:pointer;
+}
+
+#footer{
+	width:100%;
+	height:52px;
+	padding-top:30px;
+	text-align:center;
+	vertical-align:middle;
+	font-size:16px;
+	font-weight:bold;
+	color:#fff;
+	background:#1F1F1F;
+}
+
+/* iPad 768 세로형 특화 */
+@media screen and (max-width:1024px) and (orientation:portrait){ 
+	h2, h3 {background:url('../images/ico_title.gif') no-repeat 10px 2px; padding-left:29px; font-size:34px; text-align:left; color:#000; }
+
+	#logo{left:10px;}
+
+	/*-- header menu --*/
+	#header_area .header	{width:768px; }
+
+	#top_menu li a {padding:17px 20px 19px 20px;}
+	#top_menu{width:528px; text-align:right;}
+
+	.content_area{width:768px; padding-top:100px}
+
+	/*-- banner --*/
+	#banner{width:100%; height:100%; background:#fff; overflow:hidden;}
+	#banner_img img{width:768px; height:426px;}
+
+	/*-- NIRSIT-PF1 --*/
+	#nirsit { height:500px;}
+
+	/*-- Features --*/
+	#features{height:500px;}
+	#fea_menu div { width:32%;}
+
+	/*-- High-Performance --*/
+	#hiper{height:820px; }
+	#hiper .content_list { padding:0 20px 0 400px; background:url('../images/img_high01.gif') no-repeat 20px 40px; font-size:16px;}
+	#hiper .content_list dt { padding:30px 0 10px 0; }
+
+	
+	/*-- Easy-to-Use --*/
+	#etu{width:768px; height:550px; background:none; margin:0 auto;}
+	#etu img{display:block; width:100%; padding-top:30px;}
+	/*--- Portable --*/
+	#portable { height:1300px; background:none;}
+
+	#low_pro { width:90%; height:180px; padding:320px 0 0 5%; background:url('../images/img_port01_m.gif') no-repeat center 0; }
+
+	#mobile_app { width:90%; padding:340px 0 0 5%; background:none; }
+
+	#mobile_app img { position:absolute; top:0; left:18%;}
+	#mobile_app_nav div {position:absolute; top:120px; }
+	#mobile_app_nav .nav_prev { left:3%; cursor:pointer; }
+	#mobile_app_nav .nav_next { right:13%; cursor:pointer; }
+
+	/*-- Technology --*/
+	#technology { height:2550px;}
+
+	#NIRS {width:90%; height:150px; padding:340px 0 0 5%; background:url('../images/img_tech01.gif') no-repeat center 0; }
+	#ESODH {width:90%; height:220px; padding:380px 0 0 5%; background:url('../images/img_tech02.gif') no-repeat center 0; }
+	#Trajectory {width:90%;  height:200px; padding:360px 0 0 5%; background:url('../images/img_tech03.gif') no-repeat center 0; }
+
+	#reference p{position:absolute; left:5%; top:0; width:90%;  }
+
+	#character li { width:32%; }
+
+	/*-- Support --*/
+	#support .content_area{padding-top:57px;}
+	#support { 	height:880px; }
+	.s_left, .s_right{ clear:both; width:100%; margin:0 0 0 2%;}
+	.btn_send { margin:10px 40px 0 0;}
+}

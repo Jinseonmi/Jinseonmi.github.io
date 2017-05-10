@@ -1,0 +1,224 @@
+/*@import url("fonts.css");*/
+
+html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, a, img, fl, dt, dd, il, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td { margin:0; padding:0; border:0; font-family:inherit; font-weight:inherit;}
+body { width:100%; font-family:'NotoSansRegular', 'Franklin Gothic Book', 'MyriadPro', 'Arial'; font-size:16px; color:#444; background:#fff;}
+dl, ol, ul {list-style:none;}
+h1, h2, h3, h4, h5, h6{text-transform:uppercase;}
+h2, h3 {background:url('http://www.obelab.com/images/ico_title.gif') no-repeat 15px 1px; padding-left:34px; font-size:24px; text-align:left; color:#000;}
+h2 { font-weight:bold; /*font-family:'NotoSansBold', 'Franklin Gothic Demi Cond', 'MyriadProBoldCond';*/ }
+h3 { font-weight:bold; /*font-family:'NotoSansMedium', 'Franklin Gothic Medium Cond', 'MyriadProCond';*/ }
+a{color:#444; text-decoration:none;}
+
+/*-- list --*/
+.content_list dt { font-weight:bold; /*font-family:'NotoSansBold', 'Franklin Gothic Demi', 'MyriadProBold';*/ color:#0055a5; text-transform:uppercase; }
+
+/*-- header menu --*/
+#header_area{
+	position: fixed;	
+	top: 0;
+	width:100%;
+	height:38px;
+	background: #fff;
+	/*background:url('http://www.obelab.com/images/bg_header_line.gif') repeat-x bottom;*/
+	border-bottom: 1px #9C9DA1 solid; 
+	z-index: 9999;
+}
+
+#header_area .header	{position:relative; width:100%; margin:0 auto;}
+
+#logo{
+	position:absolute;
+	left:0;
+	width:20%;
+	text-align:left;
+}
+
+#logo img{margin:10px 0; width:100px; padding-left:10px;}
+
+#menu_btn{
+	position:absolute;
+	right:0;
+	width:20%;
+	background:#0055A5;
+	padding:9px 0 10px 0;
+	font-weight:bold;
+	text-align:center;
+	color:#fff;
+}
+
+#top_menu{
+	position:absolute;
+	right:0;
+	top:39px;
+	width:135px;
+	z-index:999;
+	background:#fff;
+	border:1px solid #F3F3F3;
+}
+
+#top_menu li{
+	font-weight:bold;
+	/*font-family:'NotoSansBold', 'Franklin Gothic Demi', 'MyriadProBold';*/
+	text-align:right;
+	text-transform:uppercase;
+	padding-right:10px;
+	/*background:url('http://www.obelab.com/images/divider.gif') no-repeat 0 center;*/
+	border-top:1px solid #F3F3F3;
+}
+#top_menu li:first-child{background:none; border-top:none;}
+#top_menu li a {width:100%; padding:5px 0; line-height:26px; display:inline-block; border:0px solid #E5E5E5; color:#0055A5;}
+
+/*-- content --*/
+.content_area{position:relative; width:100%; padding:70px 0 30px 0; margin:0 auto;} /* padding-top:170px; */
+
+/*-- banner --*/
+#banner{
+	width:100%;
+	/*background:url('http://www.obelab.com/images/bg_gray.gif') no-repeat;*/
+	overflow:hidden;
+}
+
+#banner .content_area{ padding:0; }
+
+/*
+#banner_nav{width:100%;}
+#banner_nav img{width:53px; height:52px;}
+#banner_nav div{position:absolute; top:45%;}
+#banner_nav .nav_prev { left:0;}
+#banner_nav .nav_next { right:0;}
+*/
+
+/*-- NIRSIT-PF1 --*/
+#nirsit { /*height:884px;*/ } /* 790px */
+#nirsit .content_area{text-align:center;}
+#nirsit .content_area img{width:70%; margin:50px 0;}
+#nirsit p { font-weight:bold; /*font-family:'NotoSansBold', 'Franklin Gothic Demi Cond', 'MyriadProBoldCond';*/ }
+
+/*-- Features --*/
+#features{background:#009DDC;}
+
+#features h2{color:#fff; margin-bottom:20px;}
+
+#features .content_list dt{color:#fff;}
+#features .content_area {text-align:center;}
+#fea_menu div { width:31%; padding-top:35%; text-align:center; display:inline-block; vertical-align:top; }
+#fea_menu .fea_menu1 { background:url('http://www.obelab.com/images/img_fea01.gif') no-repeat center 0; background-size:contain; }
+#fea_menu .fea_menu2 { background:url('http://www.obelab.com/images/img_fea02.gif') no-repeat center 0; background-size:contain; }
+#fea_menu .fea_menu3 { background:url('http://www.obelab.com/images/img_fea03.gif') no-repeat center 0; background-size:contain; }
+
+#fea_menu a{display:inline-block; text-align:center; width:90%; color:#fff; font-weight:normal;}
+
+/*-- High-Performance --*/
+#hiper{
+	/*height:744px;*/ /* 650px */	 
+}
+
+#hiper .content_list { padding-left:15px; padding-right:15px;/*background:url('http://www.obelab.com/images/img_high01.gif') no-repeat center 0;*/ }
+#hiper dt { margin-top:20px; }
+
+/*-- Easy-to-Use --*/
+#etu{
+	/*height:400px;*/ /* 934px */
+	text-align:center;
+	background:#EFEFEF;
+}
+
+#etu h3{margin-bottom:15px;}
+#etu p { font-weight:bold; /*font-family:'NotoSansBold', 'Franklin Gothic Demi Cond', 'MyriadProBoldCond';*/ }
+#etu img{width:100%;}
+
+
+/*--- Portable --*/
+#portable { 
+	/*height:1097px;*/ /* 1003px */
+	/*background:url('http://www.obelab.com/images/bg_port01_m.gif') no-repeat center bottom;*/
+}
+#portable h3{padding-bottom:30px; }
+
+#portable dt, #portable dd { padding-left:15px; padding-right:15px;}
+
+#low_pro { /*width:100%;*/ /*padding-top:100px; background:url('http://www.obelab.com/images/img_port01.gif') no-repeat 0;*/ }
+
+#mobile_app { position:relative; }
+#mobile_app dt { padding-top:40px; }
+#mobile_app p { padding-bottom:10px; }
+
+/*#mobile_app img { position:absolute; top:26px; right:60px; }*/
+/*
+#mobile_app_nav div {position:absolute; top:365px; }
+#mobile_app_nav .nav_prev { right:248px; cursor:pointer; }
+#mobile_app_nav .nav_next { right:208px; cursor:pointer; }
+*/
+
+#portable img{width:90%;}
+
+
+/*-- Technology --*/
+#technology { 
+	/*height:1924px;*/ /* 1830px */
+	color:#fff; 
+	background:#009DDC;
+}
+#technology h2, #technology dt { color:#fff; }
+#technology h2 { margin-bottom:30px; }
+#technology dt, #technology dd { padding-left:15px; padding-right:15px;}
+#technology dt { margin:30px 0 10px 0; font-size:18px; }
+#technology img { width:90%; margin:20px 0;}
+
+/*
+#NIRS { height:220px;  background:url('http://www.obelab.com/images/img_tech01.gif') no-repeat 0; }
+#ESODH { margin-top:70px; height:260px; background:url('http://www.obelab.com/images/img_tech02.gif') no-repeat 0; }
+#Trajectory { margin-top:70px; height:260px; background:url('http://www.obelab.com/images/img_tech03.gif') no-repeat 0; }
+*/
+
+
+
+#reference { margin:50px 15px 70px 15px; font-size:12px; }
+
+#character ul { /*margin-top:50px;*/ text-align:center; }
+#character li { width:31%; padding-top:35%; margin:20px 0 20px 0; text-align:center; display:inline-block; vertical-align:top; /*text-transform:uppercase;*/ }
+#character .chara1 { background:url('http://www.obelab.com/images/img_chara01.gif') no-repeat center 0; background-size:contain; }
+#character .chara2 { background:url('http://www.obelab.com/images/img_chara02.gif') no-repeat center 0; background-size:contain; }
+#character .chara3 { background:url('http://www.obelab.com/images/img_chara03.gif') no-repeat center 0; background-size:contain; }
+
+#character a{display:inline-block; width:100%;  color:#fff; font-weight:normal;}
+
+/*-- Support --*/
+#support { 
+	/*height:1024px;*/ /* 930px */
+	background:#EFEFEF;
+}
+
+#support h3 { margin-top:30px; margin-bottom:10px; background:url('http://www.obelab.com/images/ico_stitle.gif') no-repeat 15px 4px; padding-left:35px; font-size:20px;}
+.company { margin:0 20px; color:#969696;}
+
+#support  form { position:relative; padding-left:15px; }
+#support  form p{ color:#969696;}
+
+.input_text input { width:88%; padding:4px 2%; font-size:16px; background:#fff; border:none; margin-bottom:11px; color:#AAAAAA;}
+.input_text label { display:none;}
+.input_text textarea{ width:91%; font-size:16px; border:none;}
+
+.btn_send { text-align:right; margin:10px 5% 0 0;}
+.btn_send input {
+	font-weight:bold;
+	/*font-family:'NotoSansBold', 'Franklin Gothic Demi Cond', 'MyriadProBoldCond';*/
+	font-size:16px;
+	padding:10px 20px;
+	background:#0055A5;
+	color:#fff;
+	border:none;
+	text-transform:uppercase;
+	cursor:pointer;
+	line-height:120%;
+}
+
+#footer{
+	width:100%;
+	height:52px;
+	padding-top:30px;
+	text-align:center;
+	vertical-align:middle;
+	color:#fff;
+	background:#1F1F1F;
+}

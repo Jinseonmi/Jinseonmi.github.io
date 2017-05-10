@@ -1,0 +1,64 @@
+/* Custom Fonts Begin ==================================================================== */
+/*
+@font-face {
+ 	font-family:'MyriadPro';
+ 	src: url('http://121.125.79.180/~obelab/fonts/MYRIADPRO-REGULAR.OTF');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+    font-family:'MyriadProBold';
+    src: url('http://121.125.79.180/~obelab/fonts/MYRIADPRO-BOLD.OTF');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family:'MyriadProSemiBold';
+    src: url('http://121.125.79.180/~obelab/fonts/MYRIADPRO-SEMIBOLDIT.OTF');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family:'MyriadProCond';
+    src: url('http://121.125.79.180/~obelab//fonts/MYRIADPRO-COND.OTF');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family:'MyriadProBoldCond';
+    src: url('http://121.125.79.180/~obelab/fonts/MYRIADPRO-BOLDCOND.OTF');
+    font-weight: normal;
+    font-style: normal;
+}
+*/
+@font-face {
+ 	font-family:'NotoSansRegular';
+ 	src: url('http://121.125.79.180/~obelab/fonts/NotoSansCJKkr-Regular.otf'),
+	url('http://121.125.79.180/~obelab/fonts/NotoSans-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+ 	font-family:'NotoSansMedium';
+ 	src: url('http://121.125.79.180/~obelab/fonts/NotoSansCJKkr-Medium.otf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+    font-family:'NotoSansBold';
+    src: url('http://121.125.79.180/~obelab/fonts/NotoSansCJKkr-Bold.otf'),
+	url('http://121.125.79.180/~obelab/fonts/NotoSans-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family:'NotoSansBoldBlack';
+    src: url('http://121.125.79.180/~obelab/fonts/NotoSansCJKkr-Black.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Custom Fonts+========================================================================== */
